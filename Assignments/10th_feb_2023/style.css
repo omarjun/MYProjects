@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: #fff;
+}
+img:hover{
+    cursor: pointer;
+}
+nav{
+    margin: 20px;
+}
+.menu{
+    width: 30px;
+    display: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-left:1600px;
+    margin-top: 20px;
+    gap: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+.home{
+    background-color: rgb(100, 100, 224);
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.first{
+    max-width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.firstline>img{
+    height: 40px;
+}
+.secondline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.secondline>h1{
+    font-size: 60px;
+}
+.secondline>h2{
+    font-size: 40px;
+    color: rgb(197, 197, 89);
+}
+.firstRight>img{
+    width: 30vw;
+}
+.second{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    font-size: 40px;
+}
+.line{
+    padding: 4px 65px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.projectlist{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.projectimage{
+    width: 20vw;
+}
+.prj{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+.contact{
+    font-size: 40px;
+}
+.line-contact{
+    padding: 4px 90px;
+    background-color: blue;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+}
+.contact-img{
+    width: 30px;
+}
+@media screen and (max-width: 1024px){
+    .menu{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstRight>img{
+        width: 60vw;
+    }
+    .firstline{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        gap: 20px;
+    }
+    .secondline>h1{
+        font-size: 40px;
+    }
+    .secondline>h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .projectlist{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .projectimage{
+        width: 55vw;
+    }
+}
