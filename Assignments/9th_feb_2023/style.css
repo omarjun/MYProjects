@@ -1,0 +1,60 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+.large,.larger,.small,.smaller{
+    font-size: 40px;
+    display: none;
+}
+@media screen and (max-width: 1440) {
+    body{
+        background-color:#044f09;
+    }
+    .large{
+        display: block;
+    }
+}
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: rgb(183, 145, 6);
+    }
+    .larger{
+        display: none;
+    }.large{
+        display: block;
+}
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(64, 238, 212);
+    }
+    .larger{
+        display: none;
+    }
+    .large{
+        display: none;
+    }
+    .small{
+        display: block;
+}
+}
+@media screen and (max-width: 425px) {
+    body{
+        background-color: brown;
+    }
+    .larger{
+        display: none;
+    }
+    .large{
+        display: none;
+    }
+    .small{
+        display: none;
+    }
+    .smaller{
+        display: block;
+    }
+}
