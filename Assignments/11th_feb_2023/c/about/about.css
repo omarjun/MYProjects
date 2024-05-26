@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+.nav{
+   
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+ width: 150px;
+ margin: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin-left: 850px;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+.descrip{
+    width: 50%;
+    text-align: center;
+    
+}
+.descrip h1{
+     color: #20BC7E;
+     
+     margin-bottom: 20px;
+}
+.descrip p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.achievement{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card span{
+    color: #20BC7E;
+    font-size: 25px;
+    font-weight: 700;
+
+}
